@@ -1,0 +1,32 @@
+{
+  "name": "nmap",
+  "description": "(n, map) => Array.from({ length: n }, map)",
+  "version": "1.1.0",
+  "author": "Nao Yonamine <mohayonao@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mohayonao/nmap/issues"
+  },
+  "files": [
+    "package.json",
+    "index.js",
+    "README.md"
+  ],
+  "homepage": "http://mohayonao.github.io/nmap/",
+  "keywords": [
+    "array",
+    "from",
+    "map"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mohayonao/nmap.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "preversion": "npm run test",
+    "test": "node test",
+    "travis": "npm run test"
+  }
+}
