@@ -10,3 +10,5 @@ docker ps
 
 # stop
 docker stop "ID..."
+
+env_docker.sh == Dockerfile
